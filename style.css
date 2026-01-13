@@ -160,3 +160,11 @@ body {
   margin-bottom: 12px;
   padding-left: 0;
 }
+/*recommend*/
+.recommend h2{
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 60px;
+  text-align: center;
+  letter-spacing: 2px;
+}
