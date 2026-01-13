@@ -161,10 +161,62 @@ body {
   padding-left: 0;
 }
 /*recommend*/
+.youtube {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
 .recommend h2{
   font-size: 3rem;
   font-weight: 500;
   margin-bottom: 60px;
   text-align: center;
   letter-spacing: 2px;
+}
+.douga {
+  text-align: center;
+  width: 560px;
+}
+
+.song-title {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+/* CONTACT */
+.contact {
+  padding: 120px 40px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  line-height: 2;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+}
+
+.contact .email {
+  font-size: 3.4rem;
+  font-weight: bold;
+  margin: 30px 0;
+}
+
+.contact .notes {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 20px;
+  text-align: left; 
+}
+
+.contact .notes li {
+  margin-bottom: 12px;
+  font-size: 1rem;
+  line-height: 1.8;
 }
