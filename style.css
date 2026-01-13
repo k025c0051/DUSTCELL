@@ -220,3 +220,32 @@ body {
   font-size: 1rem;
   line-height: 1.8;
 }
+.footer {
+  background-color: black;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.footer-content {
+  display: inline-flex;      
+  align-items: center;
+  gap: 60px;                 
+}
+
+.footer-left {
+  white-space: nowrap;
+}
+
+.footer-icon {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  opacity: 0.9;
+  transition: opacity 0.2s ease;
+}
+
+.footer-icon:hover {
+  opacity: 1;
+}
