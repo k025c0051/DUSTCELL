@@ -124,7 +124,7 @@ body {
   letter-spacing: 2px;
 }
 
-/* 年と内容を横並び */
+
 .bio-row {
   display: flex;
   align-items: flex-start; 
@@ -300,4 +300,10 @@ body {
   border-top: 1px solid #555;
   margin-top: 40px;
   padding-top: 30px;
+}
+/*--------------------------------------*/
+/*ARTIST*/
+.EMA {
+  margin-top: 100px; 
+  text-align: center;
 }
