@@ -249,3 +249,55 @@ body {
 .footer-icon:hover {
   opacity: 1;
 }
+
+/*--------------------------------------*/
+/* LIVE BANNER 全体 */
+.live-banner {
+  width: 100%;
+  max-width: 800px;
+  border: 1px solid #555;
+  margin: 0 auto;
+  font-family: "Helvetica Neue", "Noto Sans JP", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.tour-title {
+  font-size: 35px;
+  letter-spacing: 2px;
+  text-align: left;
+  border-top: none;
+}
+
+.live-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  font-size: 30px;
+  font-weight: 300;
+  border-top: 1px solid #555; 
+}
+.artist {
+  text-align: left;
+  border-right: 1px solid #555;
+  padding-right: 30px;
+  margin-right: 20px;
+}
+
+.date {
+  text-align: center;
+  flex: 1;
+  border-right: 1px solid #555;
+  padding-right: 20px;
+  margin-right: 20px;
+}
+
+.place {
+  text-align: right;
+}
+
+.live-banner , .live-banner {
+  border-top: 1px solid #555;
+  margin-top: 40px;
+  padding-top: 30px;
+}
