@@ -332,11 +332,7 @@ body {
 /* デスクトップ幅の全体調整     */
 
 @media screen and (min-width: 1024px) {
-  .header
-  .main-visual,
-  .biography,
-  .contact,
-  .live-banner {
+  *{
     width: 980px;
     max-width: 980px;
     margin: 0 auto;
