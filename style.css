@@ -334,8 +334,8 @@ body {
   .biography,
   .contact,
   .live-banner {
-    width: 960px;
-    max-width: 960px;
+    width: 980px;
+    max-width: 980px;
     margin: 0 auto;
   }
-}
+} 
