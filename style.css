@@ -312,12 +312,12 @@ body {
   text-align: right;
   padding-right: 30px;
 }
-
 .live-banner , .live-banner {
   border-top: 1px solid #555;
-  margin-top: 40px;
+  margin-top: 60px;
   padding-top: 30px;
 }
+
 /*--------------------------------------*/
 /*ARTIST*/
 .artist-name {
