@@ -331,10 +331,3 @@ body {
 
 /* デスクトップ幅の全体調整     */
 
-@media screen and (min-width: 1024px) {
-  *{
-    width: 1200px;
-    max-width: 1400px;
-    margin: 0 auto;
-  }
-} 
